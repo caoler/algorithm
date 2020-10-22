@@ -1,4 +1,4 @@
-package cn.caoler.list;
+package cn.caoler.easy;
 
 import cn.caoler.base.ListNode;
 

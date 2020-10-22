@@ -1,6 +1,4 @@
-package cn.caoler.list;
-
-import org.omg.PortableInterceptor.INACTIVE;
+package cn.caoler.medium;
 
 /**
  * @author keji

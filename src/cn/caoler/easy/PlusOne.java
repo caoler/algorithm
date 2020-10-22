@@ -1,6 +1,4 @@
-package cn.caoler.list;
-
-import com.sun.tools.corba.se.idl.constExpr.Plus;
+package cn.caoler.easy;
 
 /**
  * @author keji

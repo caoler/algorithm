@@ -1,4 +1,4 @@
-package cn.caoler.list;
+package cn.caoler.easy;
 
 import java.util.Arrays;
 import java.util.HashMap;
