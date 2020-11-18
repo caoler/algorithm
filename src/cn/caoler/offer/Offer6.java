@@ -6,7 +6,7 @@ import java.util.Stack;
 
 /**
  * @author keji
- * @desc
+ * @desc https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-b/
  * @date 2020/11/18 4:45 下午
  */
 public class Offer6 {
