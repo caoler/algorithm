@@ -45,4 +45,47 @@ public class Offer6 {
         return print;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public int[] reversePrint2(ListNode head) {
+        ListNode curr = head;
+        int len = 0;
+        while (curr != null) {
+            len ++;
+            curr = curr.next;
+        }
+
+        int[] result = new int[len];
+        curr = head;
+        while (curr != null) {
+            result[len - 1] = curr.val;
+            len --;
+            curr = curr.next;
+        }
+        return result;
+    }
+
 }
