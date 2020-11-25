@@ -37,4 +37,22 @@ public class Offer22 {
         }
         return cur;
     }
+
+    //前后指针
+    //
+    public ListNode getKthFromEnd2(ListNode head, int k) {
+        ListNode former = head, // 前指针
+                latter = head; // 后指针
+
+        //前指针先走k步，保证前后指针中间间隔K格，当前指针往前走走完的时候，那么后指针刚好到倒数第K个位置。！
+        for(int i = 0; i < k; i++) {
+            former = former.next;
+        }
+        while(former != null) {
+            former = former.next;
+            latter = latter.next;
+        }
+        return latter;
+    }
+
 }
